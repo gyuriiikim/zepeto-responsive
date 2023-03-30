@@ -1,1 +1,119 @@
+/* ------------------------------------------------------- header */
+header {
+    background:#26282b; display:flex;
+    flex-flow:row nowrap; justify-content:space-between;
+    align-items:center; height:80px; padding:0 16px;
+    position:fixed; width:100%; z-index:999;
+}
+header h1 {}
+header h1 .logo {width:300px;}
+header h1 .logo img {width:100%;}
+header .nav {width:490px;}
+header .nav a {font-size:1.188rem; color:#f9f9f9; margin-right:20px;}
+header .nav a:last-child {margin:0;}
+header .lnb {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+header .lnb a {margin-right:20px; color:#f9f9f9;}
+header .lnb a:first-child {
+    border:2px solid #fff;
+    border-radius:5px; padding:8px;
+}
+header .lnb a:last-child { width:35px; margin:0; filter:invert(1);}
+header .lnb a img {width:100%;}
+/* ------------------------------------------------------- main */
 
+main > div {text-align:center;}
+/* ----------------------------------------- 영상시작 */
+main {}
+main .start_wrap {height:800px; overflow:hidden;}
+main .start_wrap .txt {
+    /* background:lightblue; */
+    position:absolute;  z-index:900;
+    color:#fff; left:50%; top:50%;
+    transform:translate(-50%, -50%);
+    display:fixed;
+}
+main .start_wrap .txt h1 {
+    margin-bottom:100px; font-size:3rem;
+    font-weight:700;
+}
+main .start_wrap .txt .start_btn {
+    background:#26282b; color:#fff; padding:20px 50px;
+    border-radius:10px;
+}
+main .start_wrap video {width:100%;}
+/* -------------------------------------------- 크리에이터 */
+main .creator {background:#fff; margin:150px 0;}
+main .creator h1 {font-size:3rem; font-weight:700;}
+main .creator p {font-size:1.188rem; margin-top:50px; line-height:1.5;}
+main .creator p img {width:100%;}
+main .creator .contents {
+    margin:50px auto;
+    flex-flow:row nowrap; display:flex;
+    justify-content:space-around;
+    max-width:100%; 
+}
+main .creator .contents dl {}
+main .creator .contents dl dt  {font-size:2rem; font-weight:700;}
+main .creator .contents dl dd {margin-top:10px;}
+/* --------------------------------------------- 월드  */
+main .world {
+    background:#f9f9f9; padding-top:100px;
+}
+main .world h1 {font-size:3rem; font-weight:600;}
+main .world > p {
+    font-size:1.188rem; line-height:1.5;
+    margin:50px 0;
+}
+main .container {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-around;
+    align-content:center; max-width:100%;
+    margin:0 auto;
+    padding-bottom:150px;
+}
+main .container .box {
+    background:#fff; max-width:100%;
+    padding:50px 100px; border-radius:10px;
+}
+main .container .box h2 {font-size:1.5rem; font-weight:600;}
+main .container .box p {margin:20px 0 50px; line-height:1.5;}
+main .container .box .more {
+    background:#26282b; color:#fff; padding:15px 20px;
+    border-radius:15px;
+}
+/* -------------------------------------- 베스트 크리에이터 */
+main .best {
+    background:#fff; padding-top:150px;
+}
+main .best h1 {}
+main .best p {margin:50px 0; line-height:1.5; font-size:1.5rem;}
+main .best .container {}
+main .best .container a {margin-right:20px;}
+main .best .container a:last-child {margin:0;}
+main .best .container a img {width:100%;}
+/*  ----------------------------------------------------------- footer */
+footer {
+    background:#f9f9f9; display:flex;
+    flex-flow:row nowrap; justify-content:space-between;
+    padding:50px 16px 40px;
+}
+footer .ft_left {}
+footer .ft_left a {margin-right:20px;}
+footer .ft_left a:nth-child(4) {margin:0;}
+footer .ft_left p {margin:15px 0;}
+footer .ft_right {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+}
+footer .ft_right .lang_sit {}
+footer .ft_right .lang_sit #lang {
+    border:none; margin-right:10px;
+}
+footer .ft_right .lang_sit #lang option {}
+footer .ft_right .icon {}
+footer .ft_right .icon a {margin-right:3px;}
+footer .ft_right .icon a:last-child {margin:0;}

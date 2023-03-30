@@ -1,0 +1,5 @@
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    header .nav {display:none;}
+    main .best .container a:last-child {display:none;}
+}
